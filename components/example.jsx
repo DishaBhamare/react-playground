@@ -13,8 +13,9 @@ function Congratulations(){
 }
 
 //Step 1:export the component
-// The export default prefix is a standard JavaScript syntax (not specific to React). 
+// The export default prefix is a standard JavaScript syntax . 
 // It lets you mark the main function in a file so that you can later import it from other files.
+
 //Step 2:define function
 //With function Congratulations() { } you define a JavaScript function with the name Congratulations.
 // React components are regular JavaScript functions, but their names must start with a capital letter or they won’t work!
