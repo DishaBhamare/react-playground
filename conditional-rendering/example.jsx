@@ -4,7 +4,7 @@
 //Conditional rendering is used when we need to display different things based on conditions
 //In React, we can use JavaScript operators like if or the ternary operator for conditional rendering.
 //ex. of conditional rendering using if statement
-//Here is condition is true then first expression will be returned otherwise second expression will be returned
+//Here if condition is true then first expression will be returned otherwise second expression will be returned
 function Authentication() {
 let isLoggedIn = true;
 if(isLoggedIn){
@@ -24,7 +24,7 @@ function SignInMessage() {
   }
 
 //ex. of conditional rendering using logical && operator
-//Here is condition is true then second expression will be returned otherwise it will return false
+//Here if condition is true then second expression will be returned otherwise it will return false
 function AdminMessage() { 
     const isAdmin = true; 
     return ( 
